@@ -6,21 +6,25 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Qual é o ingrediente principal do prato típico italiano "Carbonara",
+        enunciado: "Qual cidade é conhecida como "A Cidade Luz"?",
         alternativas: [
+          "Paris!"
+          "Roma!"
             {
                 texto: "Isso é assustador!",
                 afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "",
                 afirmacao: "Quis saber como usar IA no seu dia a dia."
             }
         ]
     },
     {
-        enunciado: "Qual é a função principal da técnica de marinada na culinária?",
+        enunciado: "Qual é o país com o maior número de Patrimônios Mundiais da UNESCO?",
         alternativas: [
+            "Itália!"
+            "China!"
             {
                 texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
                 afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
@@ -32,8 +36,10 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Qual é a diferença entre os cortes "julienne" e "brunoise" utilizados na preparação de legumes?",
+        enunciado: "Qual é o destino turístico mais visitado do Brasil?",
         alternativas: [
+            "Rio de Janeiro!"
+            "Salvador!"
             {
                 texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
                 afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
@@ -45,8 +51,10 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Qual é a principal característica do estilo de cozinha "fusion"?",
+        enunciado: "Qual é a montanha mais alta do mundo",
         alternativas: [
+            "Everest!"
+            "Kilimanjaro!"
             {
                 texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
                 afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
@@ -58,8 +66,10 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Qual é o principal ingrediente da clássica sobremesa "Tiramisu"?",
+        enunciado: "Em qual continente está localizada a Grande Muralha da China?",
         alternativas: [
+            "Ásia!"
+            "Europa!"
             {
                 texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
                 afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
