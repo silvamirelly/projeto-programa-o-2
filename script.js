@@ -8,75 +8,70 @@ const perguntas = [
     {
         enunciado: "Qual cidade é conhecida como "A Cidade Luz"?",
         alternativas: [
-          "Paris!"
-          "Roma!"
+
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Paris",
+                afirmacao: ""
             },
             {
-                texto: "",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Roma",
+                afirmacao: ""
             }
         ]
     },
     {
         enunciado: "Qual é o país com o maior número de Patrimônios Mundiais da UNESCO?",
         alternativas: [
-            "Itália!"
-            "China!"
+
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Itália",
+                afirmacao: ""
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "China",
+                afirmacao: ""
             }
         ]
     },
     {
         enunciado: "Qual é o destino turístico mais visitado do Brasil?",
         alternativas: [
-            "Rio de Janeiro!"
-            "Salvador!"
+            
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Rio de Janeiro",
+                afirmacao: ""
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Salvador",
+                afirmacao: ""
             }
         ]
     },
     {
         enunciado: "Qual é a montanha mais alta do mundo",
         alternativas: [
-            "Everest!"
-            "Kilimanjaro!"
+            
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Everest",
+                afirmacao: ""
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "kilimanjaro",
+                afirmacao: ""
             }
         ]
     },
     {
         enunciado: "Em qual continente está localizada a Grande Muralha da China?",
         alternativas: [
-            "Ásia!"
-            "Europa!"
+
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "Ásia",
+                afirmacao: ""
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Europa",
+                afirmacao: ""
             }
         ]
     },
@@ -116,7 +111,7 @@ function respostaSelecionada(opcaoSelecionada) {
 
 function mostraResultado() {
     caixaPerguntas.textContent = "Em 2049...";
-    textoResultado.textContent = historiaFinal;
+    textoResultado.textContent = Respostas certas: 1- Paris 2- Itália 3- Rio De Janeiro 4- Everest 5- Ásia.;
     caixaAlternativas.textContent = "";
 }
 
