@@ -6,7 +6,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Qual cidade é conhecida como "A Cidade Luz"?",
+        enunciado: "Qual cidade é conhecida como A Cidade Luz?",
         alternativas: [
 
             {
