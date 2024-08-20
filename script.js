@@ -110,8 +110,8 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
-    textoResultado.textContent = Respostas certas: 1- Paris 2- Itália 3- Rio De Janeiro 4- Everest 5- Ásia.;
+    caixaPerguntas.textContent = "Respostas certas:1- Paris 2- Itália 3- Rio De Janeiro 4- Everest 5- Ásia";
+    textoResultado.textContent =;
     caixaAlternativas.textContent = "";
 }
 
